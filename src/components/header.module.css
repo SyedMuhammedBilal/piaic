@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.logo {
+	width: 7%;
+	height: 10%;
+	position: relative;
+	left: 20px;
+}
+.nav-links{
+	display: flex;
+}
+
+body{
+
+}
+
+header{
+	height: 70px;
+	background-image: linear-gradient(to right top, #02645f, #035e5a, #035954, #04534f, #044e4a);
+    width: auto;
+}
+
+nav{
+	float: right;
+	padding: 15px 10px 0 0;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 9px;
+	font-size: 15px;
+	animation: slide_right 2s ease;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #e6e8e6;
+	padding: 15px;
+	animation: slide_right 2s ease;
+}
+
+nav ul li a:hover{
+	color: #2fc470;
+	transition: all 0.3s ease 0s
+}
+
+@keyframes slide_right{
+	0% {
+		transform: translateX(250px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+#Responsive-logo{
+	display: hidden;
+	width: 48px;
+	height: 48px;
+	background-size: 37px;
+}
+
+@media screen and (max-width: 758px){
+	*{
+	    margin:0;
+	}
+	#Responsive-logo{
+	    display: inline-block;
+	    background: rgb(40, 50, 60);
+	    border: 1px solid grey;
+	    border-radius: 5px;
+	}
+
+	nav ul, nav:active ul{
+	    display: none;
+	    position: absolute;
+	    z-index: 1000;
+	    padding: 10px;
+	    background-image: linear-gradient(to right top, #02645f, #035e5a, #035954, #04534f, #044e4a);
+	    right: 25px;
+	    top: 30px;
+	    border: 2px solid #F0F0F0;
+	    border-radius: 8px 8px 8px 8px;
+	    width: 43%;
+	    opacity: 0.92;
+	}
+
+	nav: hover ul{
+		display: block;
+	}
+	nav li{
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+	}
+	nav li a{
+		text-align: center;
+		display: inline-block;
+	}
+}
