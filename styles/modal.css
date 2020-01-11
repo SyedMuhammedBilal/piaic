@@ -1,0 +1,89 @@
+.bg-modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 111113;
+}
+
+.modal-contents {
+  height: 90%;
+  width: 90%;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+
+.close {
+    float: none;
+  font-size: 42px;
+  color: white;
+  transform: rotate(45deg);
+  
+}
+
+.cardArea{
+    /* box-shadow: 0px 0px 40px -15px lightgrey; */
+    width: 250px;
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+  }
+  .cardArea h1{
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 600;
+    color: #33322d;
+  }
+  .d-flex{
+    justify-content:center; 
+    align-items:center;
+  }
+  
+  .cardArea p{
+    font-family: Montserrat;
+      font-size: 12px;
+      color: #33322db5;
+  }
+
+  .modal-contents::-webkit-scrollbar {
+    display: none;
+    }
+.modalBtn2 {
+    width: 120px;
+    font-size: 12px;
+    height: 40px;
+    border-radius: 100px;
+    background-image: linear-gradient(to left, #08d88d, #0eb5a3);
+    color: white;
+    border: none;
+    outline-style: none;
+  }
+
+  .modalPCont p{
+      max-width: 1000px;
+      width: 80%;
+  }
+  .modalPCont {
+      width: 100%;
+}
+
+.closeBtnBox{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    cursor: pointer;
+    background-color: #08d88d;
+}

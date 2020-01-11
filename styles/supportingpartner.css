@@ -1,0 +1,79 @@
+.supporterIcons ul{
+    list-style-type: none;
+}
+.supporterIcons ul li{
+    float: left;
+}
+.supporterIcons ul li img{
+    height: 5.5vw;
+    /* height: 60px; */
+    padding: 1vw 2vw;
+}
+
+.supportingCont{
+    font-family: myfontRegular;
+    /* font-size: 2vw; */
+    font-size: 1.7em;
+    font-weight: 600;
+    /* text-align: left; */
+    color: #017969;
+}
+.supportingBg{
+      /* background-color: #f9f9f9; */
+      -webkit-backdrop-filter: blur(15px);
+      backdrop-filter: blur(15px);
+      background-image: linear-gradient(to left, #e6dada, #dfedf0);
+}
+
+.SIimg1{
+    margin-left: -35px;
+}
+
+@media (max-width: 610px) {
+  
+
+
+  }
+
+@media (max-width: 1000px) {
+  
+    .supporterIcons ul li img{
+        height: 8vw;
+        /* height: 60px; */
+    }
+    .supportingCont{
+        font-size: 1.5em;
+    }
+    
+}
+
+@media (max-width: 600px) {
+  
+
+    .supporterIcons ul li img{
+        height: 8vw;
+        /* height: 60px; */
+    } .supportingCont{
+        font-size: 1em;
+    }
+    
+}
+@media (min-width: 1400px) {
+    .supporterIcons ul li img{
+        height: 3em !important;
+        /* height: 60px; */
+        /* padding: 1vw 2vw; */
+    }
+  }
+@media (min-width: 1000px) {
+    .supporterIcons ul li img{
+        height: 2.9em !important;
+        /* height: 60px; */
+        /* padding: 1vw 2vw; */
+    }
+  }
+  .SupportingPartners-heading{
+      font-family: myfontExtraBold;
+      letter-spacing: 3.3px;
+      color: #192a56;
+  }

@@ -1,0 +1,130 @@
+.iot {
+    color: #252525;
+    background: #1b8f8b;
+}
+.iot-line{
+    background: #1b8f8b;
+    height: 93% !important
+}
+.it-1-t{
+    border: 2px solid #1b8f8b;
+    color:#252525 
+}
+
+.it-2-t{
+    border: 2px solid #1b8f8b;
+    background: #21b8b3;    
+}
+.it-2-t span{
+    color:white !important 
+}
+.it-3-t{
+    border: 2px solid #1b8f8b;
+    background: #1ea7a2;    
+    color:#252525 
+}
+.it-3-t span{
+    color:white !important 
+}
+.it-4-t{
+    border: 2px solid #1b8f8b;
+    background: #1b8f8bfb;    
+    color:#252525 
+}
+.it-4-t span{
+    color:white !important 
+}
+.it-5-t{
+    border: 2px solid #1b8f8b;
+    background: #0f8b87;    
+    color:#252525 
+}
+.it-5-t span{
+    color:white !important 
+}
+.it-6-t{
+    border: 2px solid #1b8f8b;
+    background: #0f8b87;    
+    color:#252525 
+}
+.it-6-t span{
+    color:white !important 
+}
+
+
+
+.i1{
+    color: #1b8f8b;
+    background: white;
+}
+.i2{
+    color: #252525ce;
+    background: #1b8f8b20;    
+}
+.i3{
+    color: #252525ce;
+    background: #1b8f8b40;    
+}
+.i4{
+    color: #252525ce;    
+    background: #1b8f8b60;    
+}
+.i5{
+    background: #1b8f8b80;    
+        color: #252525ce;    
+}
+.i6{
+    color: #252525ce;    
+    background: #22a19d;    
+}
+.bc line,.bc .heading{
+    color: #252525;
+
+}
+
+
+
+.bc .Artificial-Intelligence,.bc .line{
+    color: #252525;
+}
+.bc+.line2{
+    color: #252525;
+
+}
+.b1 .quarter{
+    color: #252525;     
+}
+.b1 .para{
+    color: #252525;  
+
+}
+.b2 {
+    background:rgba(251, 195, 20,0.5);
+    
+    color: #252525;   
+}
+.b3 {
+    background:rgba(251, 195, 20,0.75);
+    color: #252525;  
+}
+.b4 {
+    background:#fbc314;
+    color: #252525;  
+}
+
+.b-1-t{
+    border:2px solid #fbc314 !important;
+    color: #252525 !important;
+}
+.b-2-t{
+    background:  #FCE088  !important;
+}
+
+.b-3-t{
+    background:  #FCD24E !important;
+}
+
+
+.cl-cr{
+    background: #E83F8F !important;
+}

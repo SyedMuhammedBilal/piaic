@@ -1,0 +1,164 @@
+.mcCont{
+  max-width: 800px !important;
+  width: 90%;
+}
+.zia{
+  background-image: url(https://www.piaic.org/static/media/ZiaKhan.b5fc6909.jpg);
+  background-position: center-top;
+}
+.bg2{
+  background-image: url(https://www.piaic.org/static/media/YousufLakhani.092d691b.jpeg);
+}
+.bg3{
+  background-image: url(https://www.piaic.org/static/media/SulaimanMehdi.2b0321f7.jpeg);
+}
+
+.greenCir{
+  position: absolute;
+  width: 144px;
+  height: 144px;
+  margin: 3px;
+  border-radius: 50%;
+  background-color: white;
+}
+.whiteCir:hover{
+  cursor: pointer;
+  background-color: #00d09d82;
+  background-blend-mode: overlay;
+  transition: .5s;
+}
+.bg1{background-image: url(https://www.piaic.org/static/media/kazisahab.75ee91f5.png); 
+background-position: center top;
+}
+.whiteCir2{
+  width: 136px;
+  height: 136px;
+  margin: 7px;
+  border-radius: 50%;
+  position: absolute;
+  /* background-color: purple; */
+  background-size: cover;
+  background-position: center;
+}
+.whiteCir{
+  width: 136px;
+  height: 136px;
+  margin: 7px;
+  border-radius: 50%;
+  position: absolute;
+  /* background-color: purple; */
+  background-size: cover;
+  background-position: center;
+}
+.imgDiv{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #00cf9e;
+}
+.imgHead{
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.cardBody{
+  box-shadow: 0px 0px 40px -15px lightgrey;
+  width: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cardBody h1{
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 600;
+  color: #33322d;
+}
+
+.cardBody p{
+  font-family: Montserrat;
+    font-size: 12px;
+    color: #33322db5;
+}
+.spans{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.spans ul{
+  margin-left: -2.5em;
+  /* margin: 0px; */
+  list-style-type: none;
+}
+.spans ul li{
+  float: left;
+}
+
+.span{
+  width: 25px;
+  height: 25px;
+  margin: 2px;
+  border-radius: 50%;
+}
+.span1{
+  background-color: #1a65b1;
+}
+.span2{
+  background-color: #22d0fa;;
+}
+.span3{
+  background-color: #521472;
+}
+.cardBody button {
+  width: 120px;
+  font-size: 12px;
+  height: 40px;
+  border-radius: 100px;
+  background-image: linear-gradient(to left, #08d88d, #0eb5a3);
+  color: white;
+  border: none;
+  outline-style: none;
+}
+
+.mcHeading{
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  color: #017969;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+
+
+.checking{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+margin-top: 58%;
+}
+.whiteCir:hover .checking{
+  visibility: visible;
+  opacity: 1;
+}
+
+/* .checking ul li{
+  float: left;
+} */
+
+@media (max-width: 700px) {
+  
+
+
+}
+@media (max-width: 500px) {
+  
+  .mcCont{
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,46 @@
+.women-background {
+	width: 100%;
+}
+
+.paragraph {
+	text-align: center;
+	color: #a1a1a3;
+}
+
+.gallery-heading {
+	text-align: center;
+	font-size: 45px;
+	word-spacing: 10px;
+	
+}
+
+.gallery {
+	display: block;
+	float: left;
+	width: 350px;
+	padding: 10px;
+	padding-left: 12px;
+	overflow: hidden;
+}
+
+.c {
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+
+main {
+	margin-left: 100px;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
