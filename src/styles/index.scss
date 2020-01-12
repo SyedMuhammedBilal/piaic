@@ -219,7 +219,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0.5rem;
 }
 h1 {
   margin-left: 0;
@@ -575,10 +575,7 @@ th {
   -moz-font-feature-settings: "tnum";
   -ms-font-feature-settings: "tnum";
   -webkit-font-feature-settings: "tnum";
-  padding-left: 0.96667rem;
   padding-right: 0.96667rem;
-  padding-top: 0.725rem;
-  padding-bottom: calc(0.725rem - 1px);
 }
 th:first-child,
 td:first-child {

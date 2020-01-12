@@ -15,6 +15,13 @@
 	width: 1300px;
 	height: 470px;
 }
+.second-col-area-head, .third-col-status p {
+    width: 200px;
+    font-weight: 400;
+    color: #fff;
+    padding: 7px;
+    margin: auto;
+}
 
 .hiw-box1 h1 {
     border-bottom: 1px solid #00d19c;
@@ -74,7 +81,7 @@
 }
 .pakMap{
 	margin-top: 20px;
-	height: 220px;
+	height: 250px;
 }
 .second-col-area p{
 	color: #017969;
@@ -180,6 +187,10 @@
 .back{
 	background-color: #33322d;
 }
+.col-area-active {
+    background-color: #00d09d!important;
+    color: #fff!important;
+}
 .first-col-count {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -193,4 +204,13 @@
     height: 18px;
     border: 2px solid #00cf9e;
     border-radius: 50%;
+}
+.first-col-count p {
+    width: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    color: #017969;
+    margin-top: auto;
+    margin-bottom: auto;
 }

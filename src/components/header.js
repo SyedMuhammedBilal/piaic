@@ -1,44 +1,41 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-import { graphql, useStaticQuery } from 'gatsby'
+import React from 'react'
+import wit from '../pages/wit.js'
+import "./header.css"
+import piaic from "../images/logo.png"
+import but from "./htmbutton.png"
 
-import Styles from "./header.module.css"
-import Logo from "../images/logo.png"
-
-
-const HeaderPage = () => {
-	const data = useStaticQuery(graphql`
-		query {
-			site {
-				siteMetadata {
-					howitwork
-					about
-					avail
-					apply
-					wit
-				}
-			}
-		}
-	`)
-
+const Header = () => {
 	return (
-	<header>
-		<div>
-			<Link to="/"><img className={Styles.logo} src={Logo} /></Link>
-			<nav>
-				<a href="#" id="Responsive-Logo"></a>
-				<ul>
-					<li><Link to="/howitworks">{data.site.siteMetadata.howitwork}</Link></li>
-					<li><a href="#">{data.site.siteMetadata.apply}</a></li>
-					<li><Link to="/artificalintelligence">{data.site.siteMetadata.avail}</Link></li>
-					<li><Link to="/about">{data.site.siteMetadata.about}</Link></li>
-					<li><Link to="/wit">{data.site.siteMetadata.wit}</Link></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	)
+
+		
+		<header>
+		<div class ="LOG"><img src={piaic}/></div>
+		<nav>
+		<ul>
+		<li><a href="#" class="active">Home</a></li>
+		<li><a href="#">Apply</a></li>
+		<li class="sub-menu" ><a href="#">Available Programs</a>
+		<ul>
+		<li><a href="#"> Artificial Intelligence </a></li>
+		<li><a href="#"> CN and MWD </a></li> 
+		<li><a href="#"> Block Chain </a></li> 
+		<li><a href="#"> Internet Of Things </a></li>
+		</ul>  
+		</li>
+		<li class="sub-menu" ><a href="#">About</a>
+		<ul>
+		<li><a href="#"> The President </a></li>
+		<li><a href="#"> Management Committee</a></li> 
+		</ul>
+		</li>
+		<li><a href="wit">Wit</a></li>
+		</ul>
+		</nav>
+		<div class="menu-toggle"><img src={but}/></div>
+		</header>
+	
+)
+
 }
 
-export default HeaderPage
+export default Header

@@ -138,7 +138,7 @@
 }
 body {overflow-x: initial !important;}
 .box-mega-container {
-    padding: 50px 35px;
+    padding: 70px 35px;
 }
 .ai-circle-line {
     top: 13vw;
@@ -156,7 +156,7 @@ body {overflow-x: initial !important;}
 }
 @media (max-width: 1300px)
 .ai-circle-line {
-    height: 88%!important;
+    height: 88% !important;
 }
 .sec-head {
     text-align: center;
@@ -296,7 +296,7 @@ body {overflow-x: initial !important;}
     justify-content: flex-end;
 }
 
-@media (min-width:1400px){
+@media (min-width:1390px){
      .my-container{
        min-width: 90vw !important;
       }
@@ -458,7 +458,7 @@ body {overflow-x: initial !important;}
         text-align: center;
       }
       .box-mega-container{
-        padding: 130px 35px;
+        padding: 330px 35px;
       }
       .box-m-container{
       	padding: 480px 35px;
@@ -733,3 +733,14 @@ body {overflow-x: initial !important;}
          font-size: 3.5vw;
        }
    }
+@media (min-width: 576px){
+	.container {
+		max-width: 540px;
+	}
+}
+@media (min-width: 576px){
+	.col-sm-12 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}

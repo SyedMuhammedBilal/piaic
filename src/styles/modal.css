@@ -1,5 +1,3 @@
-
-    
 .bg-modal {
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
@@ -10,35 +8,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 10;
-}
-.proffesional-list li{
-  margin: 10px 0px;
-}
-body{
-  padding-top: 50px;
+  z-index: 111113;
 }
 
-.aboutCont{
-  background-image: linear-gradient(to bottom, #dfedf0, #e6dada);
+.modal-contents {
+  height: 90%;
+  width: 90%;
+  background-color: white;
   text-align: center;
   padding: 20px;
-  
+  position: relative;
   border-radius: 10px;
-  min-height: 90vh;
+  overflow: scroll;
 }
-.whiteCir3{
-  width: 136px;
-  height: 136px;
-  margin: 7px;
-  border-radius: 50%;
-  position: absolute;
-  /* background-color: purple; */
-  background-image: url(https://www.piaic.org/static/media/president.083062d2.png);
-  background-size: cover;
-  background-position:top-center;
-  /*style="background-image: url(&quot;/static/media/president.083062d2.png&quot;); background-position: center top;*/
-}
+
 
 .close {
     float: none;
@@ -51,7 +34,7 @@ body{
 .cardArea{
     /* box-shadow: 0px 0px 40px -15px lightgrey; */
     width: 250px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     padding-bottom: 20px;
   }
   .cardArea h1{
@@ -59,6 +42,10 @@ body{
     font-size: 26px;
     font-weight: 600;
     color: #33322d;
+  }
+  .d-flex{
+    justify-content:center; 
+    align-items:center;
   }
   
   .cardArea p{
@@ -99,7 +86,4 @@ body{
     color: #333;
     cursor: pointer;
     background-color: #08d88d;
-}
-.p{
-   text-align:justify;
 }

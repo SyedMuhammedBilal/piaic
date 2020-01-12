@@ -29,7 +29,16 @@ const Wit = () => {
             			title
             		}
             	}
-            }
+			}
+			allContentfulWitText {
+				edges {
+					node {
+						text2 {
+							text2
+						}
+					}
+				}
+			}
         }
 
 	`)
@@ -37,32 +46,42 @@ const Wit = () => {
 	return (
 		<Layout>
 		  	<img class="women-background" src={image} alt="level up logo" class="women-background" />
+			  <br/>
+			  <br/>
 			<div class="paragraph">
 			{data.allContentfulWitTitle.edges.map((edge) => {
 			    return (
 		    <p>{edge.node.title}</p>
 		        )
 			})}
-		    <p></p>
-		    <p>The Women Empowerment Division is committed to providing the best technical education in the world with the flexibility to allow just about anyone to participate and improve their lives. The primary objective of the Women Empowerment Division is to provide a platform via which women can receive education and training to jumpstart their careers in the global technology industry.</p>
-		    <p></p>
-		    <p>The Women Inclusion in Technology project is the largest initiative on women education in Pakistan. The main of the project is to drive female participation in the technology industry in Pakistan from less than 5% to 30% over the next two years. Via this project, PIAIC is propagating awareness and training on the latest, most state-of-the-art technologies to women in Pakistan. The Women Empowerment Division will aid highly skilled women in technology to establish themselves as entrepreneurs and leaders in the technology industry not only in Pakistan but also around the world.</p>
+		    
+			<p></p>
+			
+			{data.allContentfulWitText.edges.map((edge) => {
+			    return (
+		    <p>{edge.node.text2.text2}</p>
+			   )
+			})}
 		    </div>
+		    
+			<br/>
 		    <br/>
-		    <br/>
-		    <div>
+		    
+			<div>
 		    <p class="gallery-heading"><u>WOMEN INCLUSION IN TECHNOLOGY</u></p>
 		    </div>
 		    <br/>
 		    <center><p class="c">PIAIC WOMEN'S GALLERY</p></center>
 		    <main>
 		    <br/>
-		    {data.allContentfulWit.edges.map((edge) => {
+		    
+			{data.allContentfulWit.edges.map((edge) => {
 			    return (
 		    <div class="gallery"><img src={edge.node.img.file.url} width="350" height="200" /></div>
 			    )
 			})}
-		    </main>
+		    
+			</main>
 		</Layout>
 	)
 }

@@ -1,12 +1,18 @@
 import React from "react";
-import { Link } from "gatsby"
-import { graphql, useStaticQuery } from "gatsby"
+
+import {
+	graphql,
+	useStaticQuery,
+	Link 
+} from "gatsby"
+
 import Layout   from '../components/layout'
 
 import "../styles/bootstrap.min.css"
 import Styles from "../styles/hiw.css"
 
 const HIW = () => {
+	
 	const data = useStaticQuery(graphql`
 		query {
 			allContentfulHowItWorks {
@@ -26,19 +32,40 @@ const HIW = () => {
 		
 		<body>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		
-            <div class="container-fluid hiw-cont">
+            
+			<div class="container-fluid hiw-cont">
                 <div class="row hiw-box1 ">
-                    <div class="col-sm-12 d-flex justify-content-center align-items-center">
+                    
+					<div class="col-sm-12 
+					d-flex 
+					justify-content-center 
+					align-items-center"
+					>
                         <h1>How It Works</h1>
                     </div>
-                    <div class="col-sm-2 d-flex justify-content-center align-items-center">
-                        <div class="coutbutton d-flex justify-content-center align-items-center">1</div>
-                    </div>
-                    <div class="col-sm-8 mt-4 mt-sm-0 d-flex justify-content-center align-items-center">
+                    
+					<div class="col-sm-2 
+					d-flex 
+					justify-content-center 
+					align-items-center"
+					>
+                        
+						<div class="coutbutton 
+						d-flex justify-content-center 
+						align-items-center">
+							1
+						</div>
+                    
+					</div>
+                    
+					<div class="col-sm-8 mt-4 mt-sm-0 d-flex justify-content-center align-items-center">
                         <div>
                             <p class="para1">
                             "PIAIC will launch classes in the following locations, one city at a time, in the following order"
@@ -48,21 +75,153 @@ const HIW = () => {
                 </div>
             </div>
                 <div class="col-sm-2 "></div>
-		    <div class="row hiw-box1-1">
+		    
+			
+			<div class="row hiw-box1-1">
 		    	<div class="col-md-6 mt-4 mt-sm-0 d-flex justify-content-center align-items-center">
 		    		<div>
 		    			<img class="pakMap" src="https://www.piaic.org/static/media/pakMap.920e8f6a.png"/>
 		    		</div>	
 		    	</div>
+				
+				
+				<div class="col-md-6 mt-4 mt-sm-0 d-flex justify-content-center align-items-center">
+					<div>
+						<div class="hiw-table-box">
+							<table>
+								<tbody>
+									<tr>
+										<td></td>
+										<td class="second-col-area-head">
+											<p>City by City Roadmap</p>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td class="first-col-count">
+											<p>
+												1
+											</p>
+											<div class="hiw-dot"></div>
+										</td>
+										<td class="second-col-area">
+											<p>
+												Karachi
+											</p>
+										</td>
+										<td class="third-col-status">
+											<p>Classes Started</p>
+										</td>
+									</tr>
+									<tr>
+									    <td class="first-col-count">
+										    <p>
+												2
+											</p>
+											<div class="hiw-dot"></div>
+										</td>
+										<td class="second-col-area">
+											<p>
+												Islamabad
+											</p>
+										</td>
+										<td class="third-col-status">
+										    <p>Classes Started</p>
+										</td>
+									</tr>
+									<tr>
+									    <td class="first-col-count">
+										    <p>
+												3
+											</p>
+											<div class="hiw-dot"></div>
+										</td>
+										<td class="second-col-area">
+											<p>
+												Faisalabad
+											</p>
+										</td>
+										<td class="third-col-status">
+										    <p>Classes Started</p>
+										</td>
+									</tr>
+									<tr>
+									    <td class="first-col-count">
+										    <p>
+												4
+											</p>
+											<div class="hiw-dot"></div>
+										</td>
+										<td class="second-col-area">
+											<p class="col-area-active">
+												Sialkot
+											</p>
+										</td>
+										<td class="third-col-status">
+											<p>Accepting applications in Sialkot</p>
+										</td>
+									</tr>
+									<tr>
+									    <td class="first-col-count">
+										    <p>
+												5
+											</p>
+											<div class="hiw-dot"></div>
+										</td>
+										<td class="second-col-area">
+											<p>
+												Lahore
+											</p>
+										</td>
+										<td class="third-col-status">
+										    <p>Classes Started</p>
+										</td>
+									</tr>
+									<tr>
+									    <td class="first-col-count">
+										    <p>
+												6
+											</p>
+											<div class="hiw-dot"></div>
+										</td>
+										<td class="second-col-area">
+											<p>
+												Peshawar
+											</p>
+										</td>
+										<td class="third-col-status">
+										    <p>Classes Started</p>
+										</td>
+									</tr>
+									<tr>
+									    <td class="first-col-count">
+										    <p>
+												7
+											</p>
+											<div class="hiw-dot"></div>
+										</td>
+										<td class="second-col-area">
+											<p>
+												Quetta
+											</p>
+										</td>
+										<td class="third-col-status">
+										    <p>Classes Started</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
 		    </div>
 		   
 
-
-
-
 		    <div class="row hiw-box2">
-		        <div class="col-sm-2 d-flex justify-content-center align-items-center">
-		            <div class="coutbutton d-flex justify-content-center align-items-center">2</div>
+		        
+				<div class="col-sm-2 d-flex justify-content-center align-items-center">
+		            
+					<div class="coutbutton d-flex justify-content-center align-items-center">2</div>
 		        </div>
 		        <div class="col-sm-8 mt-4 mt-sm-0 d-flex justify-content-start align-items-center">
 		            <div>
@@ -72,7 +231,9 @@ const HIW = () => {
 		            </div>
 		        </div>    
 		    </div>
-		    <div class="hiw-box2-text2 d-flex">
+		    
+			
+			<div class="hiw-box2-text2 d-flex">
 		        <div class="left-text">
 		            <hr/>
 		            <p>
@@ -87,9 +248,12 @@ const HIW = () => {
 		            <br/>
 		        </div>
 		    </div>
-		    <div class="row hiw-box3 ">
+		    
+			
+			<div class="row hiw-box3 ">
 		        <div class="col-sm-2 d-flex justify-content-center align-items-center">
-		            <div class="coutbutton d-flex justify-content-center align-items-center">3</div>
+		            
+					<div class="coutbutton d-flex justify-content-center align-items-center">3</div>
 		        </div>
 		        <div class="col-sm-8 mt-4 mt-sm-0 d-flex justify-content-start align-items-center">
 		            <div>
@@ -104,9 +268,12 @@ const HIW = () => {
 		        </div>
 		        <div class="col-sm-2 "></div>
 		    </div>
-		    <div class="row hiw-box4 ">
+		    
+			
+			<div class="row hiw-box4 ">
 		        <div class="col-sm-2 d-flex justify-content-center align-items-center">
-		            <div class="coutbutton d-flex justify-content-center align-items-center">4</div>
+		            
+					<div class="coutbutton d-flex justify-content-center align-items-center">4</div>
 		        </div>
 		        <div class="col-sm-8 mt-4 mt-sm-0 d-flex justify-content-start align-items-center">
 		            <div>
@@ -122,9 +289,13 @@ const HIW = () => {
 		            </div>
 		        </div>
 		    </div>
-		    <div class="row hiw-box5 ">
-		        <div class="col-sm-2 d-flex justify-content-center align-items-center">
-		            <div class="coutbutton d-flex justify-content-center align-items-center">5</div>
+		    
+			
+			<div class="row hiw-box5 ">
+		       
+			    <div class="col-sm-2 d-flex justify-content-center align-items-center">
+		           
+				    <div class="coutbutton d-flex justify-content-center align-items-center">5</div>
 		        </div>
 		        <div class="col-sm-8 mt-4 mt-sm-0 d-flex justify-content-start align-items-center">
 		            <div>
@@ -134,9 +305,13 @@ const HIW = () => {
 		            </div>
 		        </div>
 		    </div>
-		    <div class="row hiw-box6 ">
-		        <div class="col-sm-2 d-flex justify-content-center align-items-center">
-		            <div class="coutbutton d-flex justify-content-center align-items-center">6</div>
+		    
+			
+			<div class="row hiw-box6 ">
+		        
+				<div class="col-sm-2 d-flex justify-content-center align-items-center">
+		           
+				    <div class="coutbutton d-flex justify-content-center align-items-center">6</div>
 		        </div>
 		        <div class="col-sm-8 mt-4 mt-sm-0 d-flex justify-content-start align-items-center">
 		            <div>
@@ -146,9 +321,13 @@ const HIW = () => {
 		            </div>
 		        </div>
 		    </div>
-		    <div class="row hiw-box7 ">
-		        <div class="col-sm-2 d-flex justify-content-center align-items-center">
-		            <div class="coutbutton d-flex justify-content-center align-items-center">7</div>
+		    
+			
+			<div class="row hiw-box7 ">
+		        
+				<div class="col-sm-2 d-flex justify-content-center align-items-center">
+		           
+				    <div class="coutbutton d-flex justify-content-center align-items-center">7</div>
 		        </div>
 		        <div class="col-sm-8 mt-4 mt-sm-0 d-flex justify-content-start align-items-center">
 		            <div>

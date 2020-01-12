@@ -9,6 +9,179 @@ html,body{
     background-size: cover;
     background-position: bottom;
 }
+
+.PresidentInitiative-cont {
+    background-image: -webkit-linear-gradient(left,#e6dada,#dfedf0);
+    background-image: linear-gradient(90deg,#e6dada,#dfedf0);
+}
+.PresidentInitiative-png-bg {
+    background-image: url(https://www.piaic.org/static/media/presidentinitiativebgpng.6c0d529d.png);
+    background-size: cover;
+    background-position: bottom;
+}
+@media (min-width: 576px){
+	.pres-container {
+		max-width: 540px;
+	}
+}
+.pres-container {
+    max-width: 1600px!important;
+}
+.pres-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pres-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.PresidentInitiative-headings {
+    padding-bottom: 50px;
+    width: 85%;
+}
+@media (max-width: 799px) and (min-width: 400px){
+	.PresidentInitiative-heading-h1 {
+		font-size: 30px;
+	}
+}
+.PresidentInitiative-heading-h1 {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+    color: #2b2929;
+}
+@media (max-width: 799px) and (min-width: 400px){
+	.PresidentInitiative-heading-h2 {
+		font-size: 20px;
+	}
+}
+.PresidentInitiative-heading-h2 {
+	font-size: 29px;
+	font-weight: 150;
+    text-align: left;
+    color: #2b2929;
+}
+@media (max-width: 799px) and (min-width: 400px){
+	.PresidentInitiative-heading-p {
+		font-size: 10px;
+	}
+}
+.PresidentInitiative-heading-p {
+    font-size: 13px;
+    font-weight: 200;
+    text-align: left;
+    color: #2b2929;
+    min-height: 15vw;
+    margin-top: 50px;
+}
+@media (max-width: 768px){
+	.my-btn-div {
+		top: 0!important;
+	}
+}
+.my-btn-div {
+    position: relative;
+    top: 0px!important;
+}
+.president_png {
+    width: 90%;
+}
+.PresidentInitiative-10k {
+    max-height: 43px;
+    margin-bottom: 9px;
+    width: 90px;
+}
+.PresidentInitiative-10k {
+    font-size: 35px;
+    margin-top: -1px;
+}
+.PresidentInitiative-vr-line {
+    display: inline-block;
+    width: 2px;
+    height: 45px;
+    background-color: #192a56;
+}
+.PresidentInitiative-button-status:active, .PresidentInitiative-button-status:hover, .PresidentInitiative-button-status:visited {
+    color: #fff;
+}
+.PresidentInitiative-button-apply {
+    border: none;
+    outline-style: none;
+    margin-top: -7px;
+    color: #fff;
+    padding: 11px 44px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(right,#08d88d,#0eb5a3);
+    background-image: linear-gradient(270deg,#08d88d,#0eb5a3);
+}
+@media (max-width: 768px){
+	.my-btn-div {
+		top: 0!important;
+	}
+}
+
+.PresidentSays-heading {
+    font-size: 42px;
+    text-align: left;
+    color: #fff;
+    font-family: myfontBold;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+.PresidentLaunchingWeb-video-col, .PresidentLaunchingWeb-video-desc-col, .PresidentLaunchingWeb-video-list-col {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media (min-width: 992px){
+	.order-lg-0 {
+		order: 0;
+	}
+}
+.PresidentSaysVideo-video-list-flexbox {
+    width: 100%;
+    display: flex;
+    height: 100px;
+}
+.PresidentSays-video-list-image {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-position: 50%;
+    background-size: cover;
+}
+.PresidentSays-video-list-content h4 {
+    font-family: myfontRegular;
+    font-size: 13px;
+    text-align: left;
+    color: #9becd7;
+    margin: 0 0 4px;
+    display: -webkit-box;
+    max-height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+}
+.PresidentSaysVideo-video-list-onVideo {
+    color: #04c492!important;
+    text-decoration: underline;
+}
+.PresidentSays-video-list-content {
+    display: inline-block;
+    width: 50%;
+    padding-left: 1.5%;
+}
+
+
+
+
 @media (min-width: 992px)
 .press{
 	padding-left: 45px;
@@ -138,16 +311,27 @@ html,body{
 
 @media screen and (max-width: 1200px){
 	.container {
-		width: 60%;
-		left: 40px;
-		margin-left: 60px
+		max-width: 0px;
+        top: 10px;
+        padding-right: 50px;
+        display: flex;
 	}
 }
 
 @media screen and (max-width: 1200px){
 	.container-r {
 		display: hidden;
+		overflow-x: auto;
+		left: 10px;
+		height: auto;
 	}
+}
+@media screen and (max-width: 1200px) {
+	.scrollmenu {
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+
 }
 
 
