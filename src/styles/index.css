@@ -288,16 +288,26 @@ html,body{
 	color: #807675;
 	position: relative;
 	padding: 1px;
-	bottom: -50px;
-	margin-top: -126px;
+	bottom: 20px;
+	margin-top: -19px;
 }
-.container {
+/*.container {
 	position: relative;
 	width: 1330px;
 	height: 100px;
 	margin: 60px auto;
 	line-height: 12vw;
 	object-fit: cover;
+}*/
+.container {
+	width: 100%;
+	height: auto;
+	background: #FEFEFE;
+	margin-top: -1.9%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
 }
 
 .container-r {
@@ -336,55 +346,65 @@ html,body{
 
 
 .container .box {
-	position: relative;
-	width: calc(321px - 50px);
-	height: calc(220px - 30px);
-	text-align: center;
-	padding-left: 35px;
-	float: left;
-	  background: linear-gradient(
-    to top, #fff 0%,  #fff 0%, #fff 75%, #192a56 75%
+	width:260px;
+	height: 150px;
+	background: linear-gradient(
+    to top, #fff 0%,  #fff 0%, #fff 75%, #192A56 75%
   );
-	margin: 13px;
+	margin:20px ;
 	box-sizing: border-box;
+	font-size: 50px;
 	overflow: hidden;
-	display: flex;
-	border-radius: 7px;
-    animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	box-shadow: 0 5px 25px rgba(0,0,0,.5);
-	animation: fadeIn 4s;
+	border-radius: 5px;
+	border: 1px solid #D3D3D3 ;
+	box-shadow: 2px 3px 10px 0 rgba(0,0,0,.16) ;
+	transition: 0.5s;
 
 }
 
+
 .container .box:nth-child(2) {
   background: linear-gradient(
-    to top, #fff 0%,  #fff 0%, #fff 75%, #e1006a 75%
+    to top, #fff 0%,  #fff 0%, #fff 75%, #E1006A 75%
   );
+}
+
+.container .box .content:nth-child(2) {
+	color: #d0d7d2;
 }
 
 .container .box:nth-child(3) {
   background: linear-gradient(
-    to top, #fff 0%,  #fff 0%, #fff 75%, #fbc314 75%
+    to top, #fff 0%,  #fff 0%, #fff 75%, #1b8f8b 75%
   );
 }
 
 .container .box:nth-child(4) {
   background: linear-gradient(
-    to top, #fff 0%,  #fff 0%, #fff 75%, #1b8f8b 75%
+    to top, #fff 0%,  #fff 0%, #fff 75%, #fbc314 75%
   );
 }
 .container .box .content {
-	font-size: 12.5px;
-	letter-spacing: 1px;
-	text-align: center; 
-	color: #a8a5a3;
-	position: absolute;
-	top: 10%;
+	font-size: 16px;
+	color : #192a56;
+	
+    text-align: center;
+	padding: 50px;
+	
+    margin-top: 0;
+    margin-bottom: rem;
+    transition: .3s;
+    font-family: myfontRegular,sans-serif;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
 }
 
 .container.box .content:nth-child(1) {
-	color: #b0adac;
+	color: #a0a0a0;
 }
 
 .container.box .content:nth-child(4) {

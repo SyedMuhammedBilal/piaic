@@ -154,9 +154,10 @@ body {overflow-x: initial !important;}
     width: 4px;
     margin-top: -4%;
 }
-@media (max-width: 1300px)
-.ai-circle-line {
+@media (max-width: 1300px){
+  .ai-circle-line {
     height: 88% !important;
+  }
 }
 .sec-head {
     text-align: center;

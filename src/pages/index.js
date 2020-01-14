@@ -105,7 +105,8 @@ const IndexPage = () => {
 		<body>
 		<br/>
 			<section>
-			    <div style={{
+				<div 
+				style={{
 					overflow:"hidden", 
 					width:"100%"
 					}}
@@ -143,7 +144,9 @@ const IndexPage = () => {
 												<p class="PresidentInitiative-heading-p">
 													{data.allContentfulParag.edges.map((edge) => {
 														return (
-														<span>{edge.node.title.title}</span>
+														<span>
+															{edge.node.title.title}
+														</span>
 														)
 													})}
 												</p>
@@ -212,7 +215,7 @@ const IndexPage = () => {
 							}}
 							>
 					        
-							<br/>
+						<div class="new-upper-bar new-ai-bar"></div>
 					        <div className="content">
 					            <p>
 									<b>
