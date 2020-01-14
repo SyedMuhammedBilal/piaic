@@ -19,7 +19,7 @@ const Header = () => {
 		<ul>
 		<li><Link to="/artificalintelligence"> Artificial Intelligence </Link></li>
 		<li><Link to="/cloud-native"> Cloud Native </Link></li> 
-		<li><Link to="/block-chain"> BlockChain </Link></li> 
+		<li><Link to="/block-chain"> Block Chain </Link></li> 
 		<li><Link to="/iot"> Internet Of Things </Link></li>
 		</ul>  
 		</li>
