@@ -1,2 +1,2 @@
 ## PIAIC-WEBSITE
-A demo Piaic Website
+A demo Piaic-Website
